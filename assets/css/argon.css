@@ -17740,7 +17740,7 @@ textarea[resize='horizontal']
 }
 .navbar-brand img
 {
-    height: 30px;
+    height: 50px;
 }
 
 .navbar-dark .navbar-brand
@@ -18805,7 +18805,9 @@ textarea[resize='horizontal']
 }
 .section-shaped .shape-default
 {
-    background: linear-gradient(150deg, #7795f8 15%, #6772e5 70%, #555abf 94%);
+    background: #83a4d4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b6fbff, #83a4d4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
 }
 .section-shaped .shape-default :nth-child(1)
 {
@@ -18875,6 +18877,14 @@ textarea[resize='horizontal']
 {
     background: #008169;
 }
+
+
+
+
+
+
+
+/* Open Section Shape 1  */
 .section-shaped .shape-style-1 span
 {
     width: 120px;
@@ -18912,28 +18922,28 @@ textarea[resize='horizontal']
     bottom: auto;
     left: -4%;
 
-    background: rgba(255, 255, 255, .1);
+    background:  red;
 }
 .section-shaped .shape-style-1 :nth-child(2)
 {
     top: 10%;
     right: 4%;
 
-    background: rgba(255, 255, 255, .1);
+    background: yellow;
 }
 .section-shaped .shape-style-1 :nth-child(3)
 {
     top: 280px;
     right: 5.66666%;
 
-    background: rgba(255, 255, 255, .3);
+    background:  rgba(255, 255, 255, .05);
 }
 .section-shaped .shape-style-1 :nth-child(4)
 {
     top: 320px;
     right: 7%;
 
-    background: rgba(255, 255, 255, .15);
+    background:  lightslategray;
 }
 .section-shaped .shape-style-1 :nth-child(5)
 {
@@ -18941,7 +18951,7 @@ textarea[resize='horizontal']
     right: auto;
     left: 1%;
 
-    background: rgba(255, 255, 255, .05);
+    background: lightsteelblue;
 }
 .section-shaped .shape-style-1 :nth-child(6)
 {
@@ -18952,28 +18962,28 @@ textarea[resize='horizontal']
     width: 200px;
     height: 200px;
 
-    background: rgba(255, 255, 255, .15);
+    background:  rgba(255, 255, 255, .05);
 }
 .section-shaped .shape-style-1 :nth-child(7)
 {
     right: 36%;
     bottom: 50%;
 
-    background: rgba(255, 255, 255, .04);
+    background:  rgba(255, 255, 255, .05);
 }
 .section-shaped .shape-style-1 :nth-child(8)
 {
     right: 2%;
     bottom: 70px;
 
-    background: rgba(255, 255, 255, .2);
+    background: limegreen;
 }
 .section-shaped .shape-style-1 :nth-child(9)
 {
     right: 2%;
     bottom: 1%;
 
-    background: rgba(255, 255, 255, .1);
+    background: lightsteelblue;
 }
 .section-shaped .shape-style-1 :nth-child(10)
 {
@@ -18981,7 +18991,7 @@ textarea[resize='horizontal']
     bottom: 1%;
     left: 1%;
 
-    background: rgba(255, 255, 255, .05);
+    background: lightsteelblue;
 }
 @media (max-width: 991.98px)
 {
@@ -19003,7 +19013,9 @@ textarea[resize='horizontal']
 }
 .section-shaped .shape-style-1.shape-default
 {
-    background: linear-gradient(150deg, #7795f8 15%, #6772e5 70%, #555abf 94%);
+    background: #83a4d4; 
+    background: -webkit-linear-gradient(to bottom, #bbf0f3, #83a4d4);  
+    background: linear-gradient(to bottom, #bbf0f3, #83a4d4); 
 }
 .section-shaped .shape-style-1.shape-light
 {
@@ -19013,6 +19025,11 @@ textarea[resize='horizontal']
 {
     background: linear-gradient(150deg, #32325d 15%, #32325d 70%, #32325d 94%);
 }
+
+/* Close Section Shape Style 1  */
+
+
+
 .section-shaped .shape-style-2 span
 {
     height: 190px;
