@@ -8113,7 +8113,7 @@ a.close.disabled
 
     display: flex;
 
-    width: 15%;
+    width: 10%;
 
     transition: opacity .15s ease;
     text-align: center;
@@ -15376,6 +15376,7 @@ button.section-darker:focus
     {
         padding-top: 100px !important;
     }
+    
     .pb-100
     {
         padding-bottom: 100px !important;
@@ -18805,9 +18806,9 @@ textarea[resize='horizontal']
 }
 .section-shaped .shape-default
 {
-    background: #83a4d4;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #b6fbff, #83a4d4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+    background: #83a4d4; 
+    background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4); 
+    background: linear-gradient(to right, #b6fbff, #83a4d4); 
 }
 .section-shaped .shape-default :nth-child(1)
 {
@@ -18922,28 +18923,28 @@ textarea[resize='horizontal']
     bottom: auto;
     left: -4%;
 
-    background:  red;
+    background:  rgba(255, 255, 255, .30);
 }
 .section-shaped .shape-style-1 :nth-child(2)
 {
     top: 10%;
     right: 4%;
 
-    background: yellow;
+    background: rgba(255, 255, 255, .25);
 }
 .section-shaped .shape-style-1 :nth-child(3)
 {
     top: 280px;
     right: 5.66666%;
 
-    background:  rgba(255, 255, 255, .05);
+    background:  rgba(255, 255, 255, .25);
 }
 .section-shaped .shape-style-1 :nth-child(4)
 {
     top: 320px;
     right: 7%;
 
-    background:  lightslategray;
+    background:  rgba(255, 255, 255, .20);
 }
 .section-shaped .shape-style-1 :nth-child(5)
 {
@@ -18951,7 +18952,7 @@ textarea[resize='horizontal']
     right: auto;
     left: 1%;
 
-    background: lightsteelblue;
+    background: rgba(255, 255, 255, .20);
 }
 .section-shaped .shape-style-1 :nth-child(6)
 {
@@ -18962,21 +18963,21 @@ textarea[resize='horizontal']
     width: 200px;
     height: 200px;
 
-    background:  rgba(255, 255, 255, .05);
+    background:  rgba(255, 255, 255, .15);
 }
 .section-shaped .shape-style-1 :nth-child(7)
 {
     right: 36%;
     bottom: 50%;
 
-    background:  rgba(255, 255, 255, .05);
+    background:  rgba(255, 255, 255, .25);
 }
 .section-shaped .shape-style-1 :nth-child(8)
 {
     right: 2%;
     bottom: 70px;
 
-    background: limegreen;
+    background: rgba(255, 255, 255, .20);
 }
 .section-shaped .shape-style-1 :nth-child(9)
 {

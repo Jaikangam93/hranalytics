@@ -31,21 +31,24 @@
 
 .weight-500{
     font-weight: 500;
- }
- .footer-logo img{
+}
+.footer-logo img{
     height: 40px;
- }
+}
 
 
  /* Start the Container Animation */
+.carousel-inner img{
+    width: 50px;
+    border-radius: 50px;
+}
 
- .container .inner-container {
-    width: 90%;
-    margin: 0 auto;
-  }
-  .container .title {
-    position: relative;
-    display: block;
-    top: 30vh;
-  }
+.testi span{
+  font-size: small;
+  font-weight: 600;
+  display: block;
+}
+.padding-bottom-30{
+    padding-bottom: 30px;
+}
   
