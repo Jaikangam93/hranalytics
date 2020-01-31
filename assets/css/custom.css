@@ -52,3 +52,13 @@
     padding-bottom: 30px;
 }
   
+.learning-outcome img{
+    width: 25px;
+}
+
+.bg-brand-color{
+    background-color:#2960A1;
+}
+.brand-second-color{
+    background-color:#8dc162;
+}
